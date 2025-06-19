@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.todo-item {
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.todo-item:hover {
+    background-color: #f1f3f5;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.bg-light {
+    background-color: #f1f3f5 !important;
+}

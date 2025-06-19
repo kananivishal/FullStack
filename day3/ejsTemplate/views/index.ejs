@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejs Deshboard</title>
+</head>
+
+<body>
+    <h2>EJS Template project</h2>
+    <h1>My fav number is <%= 2+3+4 %></h1>
+    <h1>random number is between 0 to 100 :- <%= Math.floor(Math.random()*100)%></h1>
+    <h1>random number is between 0 to 10 :- <%= number %></h1>
+
+    <% if(number % 2==0){%>
+        <h1>even number</h1>
+    <%}else{%>
+        <h1>odd number</h1>
+    <%}%>
+
+</body>
+
+</html>
