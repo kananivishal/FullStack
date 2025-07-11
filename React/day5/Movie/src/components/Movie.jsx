@@ -4,7 +4,7 @@ import axios from 'axios'
 function Movie() {
     let [shows, setShows] = useState([])
     useEffect(() => {
-        axios.get(" https://api.tvmaze.com/search/shows?q=girls")
+        axios.get("https://api.tvmaze.com/search/shows?q=girls")
             .then((response) => {
                 setShows(response.data)
             }).catch((error) => {
@@ -30,7 +30,7 @@ function Movie() {
                                 {
                                     item.show.image && (
                                         <img
-                                            src={item.show.image.medium}
+                                            src={item.show.image.original}
                                             className='w-full h-82 object-cover'
                                         />
                                     )
